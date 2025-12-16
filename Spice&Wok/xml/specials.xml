@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <Specials>
+        <product>
+            <name>Crispy Duck</name>
+            <price>2000.00</price>
+            <image>images/crispy duck.webp</image>
+        </product>
+        <product>
+            <name>Fortune_Cookies </name>
+            <price>950.00</price>
+            <image>images/fortune cookies .jpg</image>
+        </product>
+        <product>
+            <name>Chow Mein</name>
+            <price>1800.00</price>
+            <image>images/chow mein.jpg</image>
+        </product>
+        <product>
+            <name>Bruschetta</name>
+            <price>1000.00</price>
+            <image>images/bruschetta.jpg</image>
+        </product>
+    </Specials>
+</products>

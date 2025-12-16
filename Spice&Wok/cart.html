@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spice & Wok | Cart</title>
+    <link rel="stylesheet" href="CSS/headfooter.css">
+    <link rel="stylesheet" href="CSS/cart.css">
+</head>
+<body>
+    <nav class="header">
+        <div class="logo"><a href="home.html"><img src="images/simple_logo_for_Spice_&_Wok.png" alt="logo" class="logoimg"></a></div>
+        <h1 id="logoname">Spice & Wok</h1>
+        <div class="navbar">
+            <div id="navbutton">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="cart"><a href="menu.html"><img src="images/arrow.png" alt="cart" id="cartimg"></a></div>
+        </div>
+    </nav>
+    <div class="cart">
+        <h2 style="color: #B3000C; font-size: 30px;">Cart</h2>
+        <hr>
+        <div class="cart-items"></div>
+        <div class="summary">
+            <h3 style="color: #B3000C;position: relative; left: 20px; font-size: 25px;">Summary</h3>
+            <hr style="width: 90%;">
+            <div class="promo-code">
+                <label for="code">Promo Code : </label>
+                <input type="text" id="code" >
+            </div>
+            <p class="free">Delivary : Free</p>
+            <div class="cart-total"></div>
+            <button class="checkout" id="checkout"  onclick="promoCodeAlert(); location.href = 'checkout.html'" >Checkout</button>
+        </div>
+    </div>
+    <script src="script/cart.js"></script>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Our Address:<br> No6,<br>Zen & Wok,<br>Colombo.</p>
+        </div>
+        
+        <div class="footer-section">
+            <i class="fas fa-phone"></i>
+            <p>Call Us: +94713456789<br> Fax/Call: 036-814052</p>
+        </div>
+        
+        <div class="footer-section">
+            <i class="fas fa-envelope"></i>
+            <p>Email Us at:<br> zen&wok@gmail.com</p>
+        </div>
+        
+        <div class="footer-section social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"  class="social-icon"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://x.com" target="_blank" class="social-icon"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-icon"><img src="images/youtube.png" alt="youtube"></a>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <form action="#" method="post">
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" placeholder="Enter your email..."  >
+            <input type="submit" value="Subscribe" onclick="newsletterSubscriptionAlert()"> 
+        </form>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2020 All Rights Reserved To Zen & Wok</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+</footer>
+</body>
+</html>

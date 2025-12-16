@@ -1,0 +1,241 @@
+@font-face{
+    font-family:'myfont';   
+    src:url('EB_Garamond/EBGaramond-VariableFont_wght.ttf') format('truetype');
+}
+body{
+    height: 2000px;
+}
+#homeimg{
+    width: 900px;
+    height: 1000px;
+    position: relative;
+    left: 790px;
+    bottom: 105px;  
+    display: block;  
+    border-color: #B3000C; 
+    border-width: 10px;
+}
+#phrase1, #phrase2, #phrase3{
+    color: #B3000C;
+    font-size: 120px;
+    position: relative;
+    bottom: 900px;
+    left: 40px;
+    line-height: .01;
+    width: 50%;
+}
+#phrase4{
+    color: #B3000C;
+    position: relative;
+    bottom: 950px;
+    left: 50px;
+    font-size: 25px;
+    width: 50%;
+}
+#hr1{
+    position: relative;
+    bottom: 705px;
+    width: 100%;
+    height: 1px;
+    background-color: #B3000C;
+}
+#topic1{
+    color: #B3000C;
+    font-size: 70px;
+    position: relative;
+    bottom: 775px;
+    left: 40px;
+}
+#hr2{
+    position: relative;
+    bottom: 830px;
+    width: 100%;
+    height: 1px;
+    background-color: #B3000C;
+}
+#ourstory-img{
+    height: 900px;
+    width: 890px;
+    position: relative;
+    bottom: 646px;
+    right: 100px;
+}
+.passion{
+    position: absolute;
+    left: 300px;
+    z-index: 2;
+    
+}
+#ourstory-title{
+    width: 25%;
+    color: #B3000C;
+    font-size: 35px;
+    position: relative;
+    bottom: 1450px;
+    left: 600px;
+    font-weight: bold;
+}
+#ourstory{
+    color: #B3000C;
+    font-size: 25px;
+    position: relative;
+    bottom: 1350px;
+    left: 600px;
+    padding-right: 50%;
+}
+#topic2{
+    color: #B3000C;
+    font-size: 70px;
+    position: relative;
+    bottom: 1260px;
+    left: 40px;
+}
+#orderbutton{
+    color: #B3000C ;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'myfont';
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    background-color:#FDFFEF;
+    border-radius: 10px;
+    border-color: #B3000C;
+    border-width: 1px;
+}
+#orderbutton:hover{
+    background-color: #B3000C;
+    color: #FDFFEF;
+    transition: .5s;
+    cursor: pointer;
+}
+.reviews{
+    position: relative;
+    bottom: 696px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/review.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.specials{
+    position: relative;
+    bottom: 691px;
+    border: 2.5px solid black;
+    width: 900px;
+    height: 800px;  
+    background-color: #c14951;
+}
+.deal{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+    color: #FDFFEF;
+    font-size:120px;
+}
+.images{
+    position: relative;
+    bottom: 275px;
+    left: 903px;
+    
+}
+.product {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+    z-index: 3;
+}
+#Fortune_Cookies{
+    position: absolute;
+    left: 400px;
+}
+#Bruschetta{
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+  
+.product img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    transition: 0.3s ease;
+}
+footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 3110px;
+}
+.review-box {
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FDFFEF;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 3;
+    position: relative;
+    top: 130px;
+}
+
+.review-text {
+    margin-bottom: 10px;
+    z-index: 3;
+    color: #B3000C;
+    font-family: 'myfont';
+    font-size: 25px;
+    padding-top:50px ;
+}
+.review-author {
+    font-weight: bold;
+    font-size: 18px;
+    color: #B3000C;
+    font-family: 'myfont';
+    z-index: 3;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.product:hover img {
+    filter: brightness(70%);
+}
+  
+.product:hover .overlay {
+    opacity: 1;
+}
+.add-to-cart {
+    background-color: #B3000C;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'myfont';
+    font-size:20px ;
+}
+.product-name{
+    font-size: 40px;
+}
+
+

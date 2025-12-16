@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Spice & Wok | Menu</title>
+    <link rel="stylesheet" href="CSS/headfooter.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+</head>
+<body >
+    <nav class="header">
+        <div class="logo"><a href="home.html"><img src="images/simple_logo_for_Spice_&_Wok.png" alt="logo" class="logoimg"></a></div>
+        <h1 id="logoname">Spice & Wok</h1>
+        <div class="navbar">
+            <div id="navbutton">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="cart"><img src="images/shopping-cart.svg" alt="cart" id="cartimg"></div>
+        </div>
+    </nav>
+    <div class="menutop">
+    <p id="order1">Online Ordering<br>
+        <span id="order2">You can order online! Browse our menu items and choose what you’d like to order from us.</span><br>
+        <span id="order3"> Accepting Orders</span>
+        <div class="dot"></div>
+    
+    <div class="pickup">
+        <img src="images/clock.svg" alt="pickup" class="icon">Pickup time: 9:00 AM - 9:00 PM 
+        <span><img src="images/location.svg" class="icon" alt="location">Pickup Address: No 6, Colombo, Sri Lanka</span>
+        
+    </div>
+    <div class="course">
+        <button onclick="scrollToSection('section1')" >Appetizers</button>
+        <button onclick="scrollToSection('section2')">Main Course</button>
+        <button onclick="scrollToSection('section3')">Deserts</button>
+        <div class="filter">
+            <label for="sort">Sort :</label>
+            <select id="sort" onchange="navigatePage()">
+                <option value="">Select an option</option> 
+                <option value="menu.html">All</option>
+                <option value="lowToHigh.html">Price:low to high</option>
+                <option value="highToLow.html">Price:high to low</option>
+                <option value="indian.html">Indian</option>
+                <option value="chinese.html">Chinese</option>
+            </select>
+        </div>
+        <button id="viewcart" onclick="location.href = 'cart.html'">View Cart</button>
+    </div>
+    <p id="title">Chinese</p>
+    <hr style="background-color:#D0000E;height: 1px;position: relative;bottom: 90px;width: 97%;">
+</div>
+<div class="appsection" id="Appetizers">
+    <p id="app-title">Appetizers</p><span id="section1"></span>
+    <div class="appetizers" id="Appetizers-container">
+        
+    </div>
+</div>
+<div class="mainsection" id="mains">
+    <p id="main-title">Main Courses</p><span id="section2"></span>
+    <div class="Main" id="Main-container">
+        
+   
+    </div>
+</div>
+<div class="desertsection" id="deserts">
+    <p id="desert-title">Deserts</p><span id="section3"></span>
+    <div class="desert" id="Dessert-container">
+        
+    </div>
+</div>
+<div class="sidecart">
+    <p class="cart-topic">Cart</p>
+    <hr style="background-color: #D0000E;height: .5px;width: 95%;">
+    <div class="listcart">
+        <div class="cart-items"></div>
+    </div>
+    <div class="cart-total"></div>
+    <button class="checkout" onclick="location.href = 'checkout.html'">Checkout</button>
+    <button class="viewcart" onclick="location.href = 'cart.html'">View Cart</button>
+    <button class="close"><img src="images/close.svg" alt="close sidecart"></button>
+</div>
+
+<script src="script/chinese.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Our Address:<br> No6,<br>Zen & Wok,<br>Colombo.</p>
+            </div>
+            
+            <div class="footer-section">
+                <i class="fas fa-phone"></i>
+                <p>Call Us: +94713456789<br> Fax/Call: 036-814052</p>
+            </div>
+            
+            <div class="footer-section">
+                <i class="fas fa-envelope"></i>
+                <p>Email Us at:<br> zen&wok@gmail.com</p>
+            </div>
+            
+            <div class="footer-section social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"  class="social-icon"><img src="images/instagram.png" alt="instagram"></a>
+                <a href="https://x.com" target="_blank" class="social-icon"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com" target="_blank" class="social-icon"><img src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+    
+        <div class="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <form action="#" method="post">
+                <label for="email">E-mail*</label>
+                <input type="email" id="email" placeholder="Enter your email..." >
+                <input type="submit" value="Subscribe" onclick="newsletterSubscriptionAlert()"> 
+            </form>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2020 All Rights Reserved To Zen & Wok</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+        </div>
+    </footer>
+</body>
+</html>

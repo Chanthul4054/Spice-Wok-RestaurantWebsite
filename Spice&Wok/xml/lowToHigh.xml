@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <Appetizers>
+        <product>
+            <name>Samosa Chaat</name>
+            <price>400.00</price>
+            <image>images/samosa chaat.jpg</image>
+            <discription>Spiced potato-filled pastries topped with yogurt, chutney, and sev.</discription>
+        </product>
+        <product>
+            <name>Bhaji</name>
+            <price>500.00</price>
+            <image>images/bhaji.jpg</image>
+            <discription>Spicy, deep-fried onion fritters, known as onion bhaji or onion pakora.</discription>
+        </product>
+        <product>
+            <name>Spring-Rolls</name>
+            <price>600.00</price>
+            <image>images/spring-rolls.jpg</image>
+            <discription>rolls filled with fresh vegetables and served with sweet chili sauce.</discription>
+        </product>
+        <product>
+            <name>Dhokla</name>
+            <price>990.00</price>
+            <image>images/Dhokla.jpeg</image>
+            <discription>Steamed, savory cake made from fermented rice and chickpea batter, typically from Gujarat.</discription>
+        </product>
+        <product>
+            <name>Bruschetta</name>
+            <price>1000.00</price>
+            <image>images/bruschetta.jpg</image>
+            <discription>Grilled bread topped with diced tomatoes, basil, garlic, and olive oil.</discription>
+        </product>
+        <product>
+            <name>Dumplings</name>
+            <price>1100.00</price>
+            <image>images/dumplings.jpg</image>
+            <discription>Dough pockets filled with meat or vegetables, steamed, boiled, or pan-fried.</discription>
+        </product>
+    </Appetizers>
+
+    <MainCourse>
+        <product>
+            <name>Cheese Naan</name>
+            <price>1100.00</price>
+            <image>images/cheese naan.jpeg</image>
+            <discription>Soft Indian bread stuffed with melted cheese, perfect for dipping.</discription>
+        </product>
+        <product>
+            <name>Chole Bhature</name>
+            <price>1300.00</price>
+            <image>images/Chole Bhature.jpg</image>
+            <discription>Spiced chickpeas with fried bread.</discription>
+        </product>
+        <product>
+            <name>Biriyani</name>
+            <price>1500.00</price>
+            <image>images/biriyani.jpg</image>
+            <discription>Aromatic rice dish cooked with marinated meat (chicken, mutton) or vegetables, flavored with spices.</discription>
+        </product>
+        <product>
+            <name>Mapo Tofu</name>
+            <price>1700.00</price>
+            <image>images/mapo tofu.jpeg</image>
+            <discription>Spicy Sichuan dish with soft tofu and minced meat in a rich, flavorful sauce.</discription>
+        </product>
+        <product>
+            <name>Chow Mein</name>
+            <price>1800.00</price>
+            <image>images/chow mein.jpg</image>
+            <discription>Stir-fried noodles with vegetables.</discription>
+        </product>
+        <product>
+            <name>Crispy Duck</name>
+            <price>2000.00</price>
+            <image>images/crispy duck.webp</image>
+            <discription>Roasted duck with crispy skin, often served with a plum or hoisin sauce.</discription>
+        </product>
+    </MainCourse>
+
+    <Desserts>
+        <product>
+            <name>Mango Pudding</name>
+            <price>600.00</price>
+            <image>images/mango pudding.jpg</image>
+            <discription>Smooth and creamy mango-flavored pudding.</discription>
+        </product>
+        <product>
+            <name>Ladoo</name>
+            <price>700.00</price>
+            <image>images/ladoo.jpg</image>
+            <discription>Round-shaped sweets made from flour (like besan or boondi), ghee, and sugar.</discription>
+        </product>
+        <product>
+            <name>Gulab Jamun</name>
+            <price>850.00</price>
+            <image>images/gulab jamun .jpg</image>
+            <discription>Soft, syrup-soaked dough balls flavored with cardamom and rose.</discription>
+        </product>
+        <product>
+            <name>Fortune Cookies</name>
+            <price>950.00</price>
+            <image>images/fortune cookies .jpg</image>
+            <discription>Crisp cookies with a small piece of paper inside, containing a fortune or a piece of wisdom.</discription>
+        </product>
+        <product>
+            <name>Rasmalai</name>
+            <price>1050.00</price>
+            <image>images/Rasmalai.jpg</image>
+            <discription>Soft, flattened cheese balls soaked in sweetened, flavored milk.</discription>
+        </product>
+        <product>
+            <name>Tiramisu</name>
+            <price>1150.00</price>
+            <image>images/tiramisu.webp</image>
+            <discription>Layered Italian dessert with coffee-soaked ladyfingers, mascarpone cheese, and cocoa</discription>
+        </product>
+    </Desserts>
+</products>

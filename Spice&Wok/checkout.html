@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spice & Wok | Checkout</title>
+    <link rel="stylesheet" href="CSS/headfooter.css">
+    <link rel="stylesheet" href="CSS/checkout.css">
+</head>
+<body>
+    <nav class="header">
+        <div class="logo"><a href="home.html"><img src="images/simple_logo_for_Spice_&_Wok.png" alt="logo" class="logoimg"></a></div>
+        <h2 id="logoname">Spice & Wok</h2>
+        <div class="navbar">
+            <div id="navbutton">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="cart"><a href="cart.html"><img src="images/arrow.png" alt="cart" id="cartimg"></a></div>
+        </div>
+    </nav>
+    <div class="payment">
+        <h1 style="font-size: 50px;">Almost There – Let’s Get This Deliciousness Delivered!</h1>
+        <hr style="width: 95%; color:#B3000C; height: 5px; z-index: 2;">
+        <div class="form">
+        <form id="payment-form">
+            <label for="name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+            <input type="text" id="name"  ><br>
+            <label for="Number">Phone Number : </label>
+            <input type="text" id="Number"  ><br>
+            <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+            <input type="email" id="email"  ><br>
+            <label for="address" style="position: relative;bottom: 160px;">Address : </label>
+            <textarea id="address" rows="5" cols="40"  ></textarea><br>
+            <label for="instructions" style="position: relative;bottom: 160px;">Instructions : </label>
+            <textarea  id="instructions" rows="5" cols="40" placeholder="Enter any special instructions..." ></textarea><br>
+
+            <p style="font-size: 40px; font-weight: bold;">Payment Method</p>
+            <label><input type="radio" name="payment" value="card" id="card" >Credit/Debit Card</label><br>
+            <label><input type="radio" name="payment" value="cash" id="cash">Cash on Delivery</label><br>
+            <label><input type="radio" name="payment" value="paypal" id="paypal">PayPal</label><br>
+
+            <div id="card-details">
+                <label for="cardnumber">Card Number : </label>
+                <input type="text" id="cardnumber"  ><br>
+                <label for="expiry">Expiry Date&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="text" id="expiry"  ><br>
+                <label for="cvv">CVV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="text" id="cvv"  ><br>
+            </div>
+            <div id="paypal-details" >
+                <label for="paypalEmail">PayPal E-mail:</label>
+                <input type="email" id="paypalEmail" name="paypalEmail" >
+            </div>
+            <label><input type="checkbox" name="saveAddress" id="saveAddress">Save Address for future purchases</label><br>
+            <label><input type="checkbox" name="Subscribe" id="Subscribe">Subscribe to offers and updates</label><br>
+            <label><input type="checkbox" name="terms" id="terms" >I agree to the terms and conditions</label><br>
+            <hr>
+            <button type="submit" id="submit" >Submit</button>
+
+        </form>
+    </div>
+</div>
+    <script src="script/cart.js"></script>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Our Address:<br> No6,<br>Zen & Wok,<br>Colombo.</p>
+        </div>
+        
+        <div class="footer-section">
+            <i class="fas fa-phone"></i>
+            <p>Call Us: +94713456789<br> Fax/Call: 036-814052</p>
+        </div>
+        
+        <div class="footer-section">
+            <i class="fas fa-envelope"></i>
+            <p>Email Us at:<br> zen&wok@gmail.com</p>
+        </div>
+        
+        <div class="footer-section social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"  class="social-icon"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://x.com" target="_blank" class="social-icon"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-icon"><img src="images/youtube.png" alt="youtube"></a>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <form action="#" method="post">
+            <label for="nlemail">E-mail*</label>
+            <input type="email" id="nlemail" placeholder="Enter your email..." >
+            <input type="submit" value="Subscribe" onclick="newsletterSubscriptionAlert()"> 
+        </form>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2020 All Rights Reserved To Zen & Wok</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+</footer>
+</body>
+</html>

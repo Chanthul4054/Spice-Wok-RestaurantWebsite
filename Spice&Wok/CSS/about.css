@@ -1,0 +1,139 @@
+#aboutimg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.discover{
+    color: #B3000C;
+    position: relative;
+    left: 20px;
+    height: 485px;
+    
+}
+#diversetopic1{
+    font-size: 60px;
+}
+#diversetopic2{
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+}
+#description{
+    font-size: 20px;
+    padding: 0  ;
+    margin: 0;
+    padding-right: 55%;
+}
+.discover img{
+    height: auto;
+    width: 45%;
+    position: relative;
+    left: 850px;
+    bottom: 425px;
+}
+.contacts{
+    color: #B3000C;
+    height: 900px;
+    position: relative;
+    bottom: 130px;
+}
+#contacttopic{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:90px ;
+    top: 60px;
+}
+.address ,.contact,.openhours{
+    margin-right: 250px;
+    font-size: 20px;
+}
+.heading{
+    font-size: 45px;
+}
+.map{
+    position: relative;
+    left: 380px;
+    top: 120px;
+    height: auto;
+    width: 900px;
+}
+.addreview{
+    position: relative;
+    bottom: 75px;
+    color: #B3000C;
+    padding-left: 40px;
+    height: 490px;
+    background-image: url("../images/review-background.png");
+    background-size: cover;
+    background-position: center;
+}
+#reviewtopic{
+    font-size: 60px;
+    
+}
+.reviewform{
+    position: relative;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.reviewform input[type="text"]{
+    background-color: #FDFFEF;
+    border:none;
+    border-bottom: 2px solid #B3000C;
+    margin-left: 20px;
+    font-family: 'myfont';
+    color: #B3000C;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+}
+#review{
+    background-color: #FDFFEF;
+    border: 2px solid #B3000C;
+    outline: none;
+    font-family: 'myfont';
+    font-size: 20px;
+    color: #B3000C;
+    width: 450px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+}
+.reviewform input[type="submit"]{
+    background-color: #FDFFEF;
+    color: #B3000C;
+    font-size: 18px;
+    border: 1px solid #B3000C;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 60px;
+    outline: none;
+    font-family: 'myfont';
+    cursor: pointer;
+}
+.reviewform input[type="submit"]:hover{
+    background-color: #B3000C;
+    color: #FDFFEF;
+    transition: .6s;
+}
+footer{
+    position: relative;
+    bottom: 70px;
+}
+body{
+    height: 1000px;
+}
+
+
+

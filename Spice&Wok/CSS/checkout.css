@@ -1,0 +1,98 @@
+body{
+    color: #B3000C;
+}
+footer{
+    position: relative;
+    top: 100px;
+}
+.payment{
+    position: relative;
+    top: 100px;
+    padding-left: 20px ;
+}
+#payment-form{
+    position: relative;
+    font-size: 30px;
+    padding-left: 20px;    
+}
+#payment-form input{
+    margin-bottom: 20px;
+    background-color: #FDFFEF;
+    color: #B3000C;
+    font-family: 'myfont';
+    font-size: 30px;
+}
+#payment-form input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #B3000C;
+    width: 500px;
+    margin-left: 30px;
+    outline: none;
+}
+#payment-form input[type="email"]{
+    border: none;
+    border-bottom: 2px solid #B3000C;
+    width: 500px;
+    margin-left: 30px;
+    outline: none;
+}
+#payment-form textarea{
+    border: 2px solid #B3000C;
+    background-color: #FDFFEF;
+    outline: none;
+    font-family: 'myfont';
+    font-size: 30px;
+    color: #B3000C;
+    margin-bottom: 15px;
+    margin-top:15px ;
+}
+.form{
+    border: #B3000C 2px solid;
+    border-radius: 20px;
+    width: 900px;
+    padding: 20px;
+    margin-bottom: 100px;
+    position: relative  ;
+    left: 300px;
+    top: 30px;
+}
+#card-details{
+    border: #B3000C 2px solid;
+    margin: 20px;
+    padding: 20px;
+    display: none;
+    border-radius: 20px;
+}
+#submit{
+    background-color: #B3000C;
+    border: #B3000C 2px solid;
+    color:#FDFFEF;
+    font-family: 'myfont';
+    font-size: 30px;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color:#a93226;
+    color: #FDFFEF;
+    transition: .4s;
+}
+#payment-form input[type="radio"]{
+    width: 20px;
+    height: 20px;
+
+}
+#payment-form input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+}
+#paypal-details{
+    border: #B3000C 2px solid;
+    padding: 20px;
+    margin: 10px;
+    display: none;
+    border-radius: 20px;
+}

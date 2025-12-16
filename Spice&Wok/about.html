@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spice & Wok | About</title>
+    <link rel="stylesheet" href="CSS/headfooter.css">
+    <link rel="stylesheet" href="CSS/about.css">
+</head>
+<body>
+    <nav class="header">
+        <div class="logo"><a href="home.html"><img src="images/simple_logo_for_Spice_&_Wok.png" alt="logo" class="logoimg"></a></div>
+        <h1 id="logoname">Spice & Wok</h1>
+        <div class="navbar">
+            <div id="navbutton">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="cart"><img src="images/shopping-cart.svg" alt="cart" id="cartimg"></div>
+        </div>
+    </nav>
+    <img src="images/about-img.jpg" alt="about-img" id="aboutimg">
+    <hr style="background-color: #D0000E; height: .5px; margin: 20px; position: relative;">
+    <div class="discover">  
+        <p id="diversetopic1">Savor Our Diverse<br> Menu<br>
+            <span id="diversetopic2"> Discover Our Flavors</span>
+        </p>
+        <p id="description">
+            At Zen & Wok, we pride ourselves on offering a diverse menu featuring Chinese and Indian cuisine. 
+            Our interactive website allows you to easily navigate through different categories, explore our delicious dishes,
+            place orders seamlessly, and even filter items based on your preferences. Moreover, customer reviews are 
+            prominently displayed to provide you with insights and enhance your overall dining experience.
+        </p>
+        <img src="images/discover.avif" alt="discover" > 
+        <hr style="background-color: #D0000E; height: 1px; margin: 20px; position: relative; bottom: 420px;right:20px ; padding: 0px;">
+
+    </div>
+    <div class="contacts">
+        <h3 id="contacttopic">Contact Us</h3>
+        <div class="boxes">
+            <div class="address"><span class="heading">Address</span><br>No6,<br>Zen & Wok,<br>Colombo</div>
+            <div class="contact"><span class="heading">Contact</span><br>
+                +94713456789<br>
+                zen&wok@gmail.com
+            </div>
+            <div class="openhours">
+                <span class="heading">Opening Hours</span><br>
+                Mon - Fri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8:00 am – 8:00 pm<br>
+                Saturday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  9:00 am – 7:00 pm<br>
+                ​Sunday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  9:00 am – 9:00 pm
+            </div>
+        </div>
+        <img src="images/map.png" alt="location_of_shop" class="map">
+        <hr style="background-color: #D0000E; height: 1px; margin: 20px; position: relative;top: 135px; padding: 0px;z-index: 5;">
+    </div>
+    <div class="addreview">
+        <h2 id="reviewtopic">Add a Review</h2>
+        <div class="reviewform">
+            <form method="post">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="review">Review*</label><br>
+                <textarea id="review" name="review" ></textarea><br>
+                <input type="submit" value="Submit" onclick="reviewSubmitAlert()" >
+            </form>
+        </div>
+    </div>
+    <div class="sidecart">
+        <p class="cart-topic">Cart</p>
+        <hr style="background-color: #D0000E;height: .5px;width: 95%;">
+        <div class="listcart">
+            <div class="cart-items"></div>
+        </div>
+        <div class="cart-total">0</div>
+        <button class="checkout" onclick="location.href = 'checkout.html'">Checkout</button>
+        <button class="viewcart" onclick="location.href = 'cart.html'">View Cart</button>
+        <button class="close"><img src="images/close.svg" alt="close sidecart"></button>
+    </div>
+    <script src="script/cart.js"></script>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Our Address:<br> No6,<br>Zen & Wok,<br>Colombo.</p>
+        </div>
+        
+        <div class="footer-section">
+            <i class="fas fa-phone"></i>
+            <p>Call Us: +94713456789<br> Fax/Call: 036-814052</p>
+        </div>
+        
+        <div class="footer-section">
+            <i class="fas fa-envelope"></i>
+            <p>Email Us at:<br> zen&wok@gmail.com</p>
+        </div>
+        
+        <div class="footer-section social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon" ><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"  class="social-icon"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://x.com" target="_blank" class="social-icon"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-icon"><img src="images/youtube.png" alt="youtube"></a>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <form action="#" method="post">
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" placeholder="Enter your email..."  >
+            <input type="submit" value="Subscribe" onclick="newsletterSubscriptionAlert()"> 
+        </form>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2020 All Rights Reserved To  Zen & Wok</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+</footer>
+</body>
+</html>

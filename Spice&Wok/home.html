@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spice & Wok | Home</title>
+    <link rel="stylesheet" href="CSS/headfooter.css">
+    <link rel="stylesheet" href="CSS/home.css ">
+</head>
+<body>
+    <nav class="header">
+        <div class="logo"><a href="home.html"><img src="images/simple_logo_for_Spice_&_Wok.png" alt="logo" class="logoimg"></a></div>
+        <h1 id="logoname">Spice & Wok</h1>
+        <div class="navbar">
+            <div id="navbutton">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="cart"><img src="images/shopping-cart.svg" alt="cart" id="cartimg"></div>
+        </div>
+    </nav>
+    <div class="home">
+    <img src="images/food1.png" alt="homeimg" id="homeimg">
+        <p id="phrase1">Taste the</p>
+        <p id="phrase2">Fusion of</p>
+        <p id="phrase3">Flavours</p>
+        <p id="phrase4">Unleashing Culinary Excellence</p>
+        <button id="orderbutton" onclick="location.href = 'menu.html'">Order Now</button>
+    </div>  
+    <div class="story">
+        <img src="images/our_story.jpg" alt="ourstory" id="ourstory-img">
+        <div class="passion">
+        <p id="ourstory-title">Our passion</p>
+        <p id="ourstory">Spice & Wok is a restaurant that serves a variety of dishes from different cuisines.
+            Our menu includes Chinese and Indian dishes. We are dedicated to providing our customers
+            with the best dining experience. Our chefs are highly skilled and experienced in preparing delicious and authentic dishes.
+            We use only the freshest ingredients and traditional cooking methods to ensure that our food is of the highest quality. Whether you
+                are looking for a quick lunch or a special dinner, Spice & Wok has something for everyone. Come and experience
+                the fusion of flavours at Spice & Wok!</p>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="review-box" id="reviewBox">
+            <div class="review-text" id="reviewText">Loading reviews...</div>
+            <div class="review-author" id="reviewAuthor"></div>
+        </div>
+    </div>
+    <div class="specials">
+        <div class="deal">Zen & Wok <br>SPECIALS</div>
+        <div class="images" id="specials-container">
+            
+        </div>
+    </div>
+    <div class="sidecart">
+        <p class="cart-topic">Cart</p>
+        <hr style="background-color: #D0000E;height: .5px;width: 95%;">
+        <div class="listcart">
+            <div class="cart-items" id="cart-items"></div>
+        </div>
+        <div class="cart-total"></div>
+        <button class="checkout" onclick="location.href = 'checkout.html'">Checkout</button>
+        <button class="viewcart" onclick="location.href = 'cart.html'">View Cart</button>
+        <button class="close"><img src="images/close.svg" alt="close sidecart"></button>
+    </div>
+    <script src="script/special.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Our Address:<br> No6,<br>Zen & Wok,<br>Colombo.</p>
+            </div>
+            
+            <div class="footer-section">
+                <i class="fas fa-phone"></i>
+                <p>Call Us: +94713456789<br> Fax/Call: 036-814052</p>
+            </div>
+            
+            <div class="footer-section">
+                <i class="fas fa-envelope"></i>
+                <p>Email Us at:<br> zen&wok@gmail.com</p>
+            </div>
+            
+            <div class="footer-section social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"  class="social-icon"><img src="images/instagram.png" alt="instagram"></a>
+                <a href="https://x.com" target="_blank" class="social-icon"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com" target="_blank" class="social-icon"><img src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+
+        <div class="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <form action="#" method="post">
+                <label for="email">E-mail*</label>
+                <input type="email" id="email" placeholder="Enter your email..."  >
+                <input type="submit" value="Subscribe" onclick="newsletterSubscriptionAlert()"> 
+            </form>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2020 All Rights Reserved To Zen & Wok</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+        </div>
+    </footer>
+</body>
+</html>

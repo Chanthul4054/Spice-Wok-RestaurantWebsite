@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+    <review>
+        <text>Amazing food! Perfect flavors and fresh ingredients. Best Chinese and Indian cuisine!</text>
+        <author>Daniel Roberts</author>
+    </review>
+    <review>
+        <text>Zen and Wok has a beautiful ambiance with elegant decor and a relaxing vibe. A perfect spot to enjoy great food!</text>
+        <author>Mitchell</author>
+    </review>
+    <review>
+        <text>Loved the cozy and stylish atmosphere at Zen and Wok! It’s the perfect place to relax and enjoy delicious food.</text>
+        <author>Kevin Thompson</author>
+    </review>
+    <review>
+        <text>The staff were super friendly, and the presentation of dishes was top-notch!</text>
+        <author>Sophia Lane</author>
+    </review>
+</reviews>
+

@@ -1,0 +1,203 @@
+body{
+    color: #B3000C;
+}
+#order1{
+    font-size: 65px;
+    position: relative;
+    bottom: 40px;
+    padding-left: 40px;
+}
+#order2{
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+#order3{
+    font-size: 15px;
+    border: 1px solid #B3000C;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+
+}
+.dot{
+    border: 2px solid #000;
+    padding: 3px;
+    display: inline-block; 
+    border-radius: 5px; 
+    background-color: greenyellow ;
+    border-color: greenyellow;
+    position: relative  ;
+    bottom: 185px;
+    left: 70px;
+}
+.icon{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pickup{
+    margin-left: 25px;
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+}
+.course{
+    position: absolute;
+    top: 220px;
+    display: inline;
+    width: 100%;
+    height: 80px;
+    background-color:#FDFFEF;
+    z-index:1000;
+}
+.course button{
+    font-family: 'myfont';
+    font-size: 17px;
+    width: 180px;
+    height: 40px;
+    border:none;
+    border-width: 1px;
+    background-color:#FDFFEF;
+    color: #B3000C;
+    position: relative;
+    top: 20px;
+}
+.course button:hover{
+    border-bottom: #B3000C 2px solid;
+}
+#viewcart{
+    position: relative;
+    left: 780px;
+    background-color: #B3000C;
+    color: #FDFFEF;
+    z-index: 3;
+}
+#viewcart:hover{
+    cursor: pointer;
+}
+#title {
+    font-size: 35px;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+#app-title ,#main-title, #desert-title{
+    position: relative;
+    bottom: 90px;
+    left: 40px;
+    font-size: 25px;
+}
+.meal{
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+    font-size: 20px;
+    border: #B3000C 1px solid;
+    width: 500px;
+    height: 185px;
+    padding: 10px;
+}
+
+#meal-img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    bottom: 167px;
+    left: 215px;
+}
+#description{
+    font-size:15px;
+    text-align: left;
+    width: 300px;
+    height: 95px;
+    margin-top: 10px;
+}
+#price{
+    font-size: 15px;
+    color: #B3000C;
+}
+.add-to-cart{
+    color: #FDFFEF;
+    font-family: 'myfont';
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    background-color: #B3000C;
+    border: none;
+    bottom: 190px;
+    left: 200px;  
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+}
+.add-to-cart:hover{
+    cursor: pointer;
+}
+.appetizers{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 35px;
+    position: relative;
+    right: 18px;
+}
+.Main{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 35px;
+    position: relative;
+    right: 18px;
+}
+.mainsection{
+    padding-top: 60px;
+}
+.desert{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 35px;
+    position: relative;
+    right: 18px;
+}
+.desertsection{
+    padding-top: 60px;
+}
+.menutop{
+    position: relative;
+    top: 50px;
+}
+.appsection{
+    position: relative;
+    top: 50px;
+}
+.mainsection{
+    position: relative;
+    top: 50px;
+}
+.desertsection{
+    position: relative;
+    top: 50px;
+}
+.filter {
+    position: absolute;
+    left: 780px;
+    bottom: 25px;
+    font-size: 25px;
+}
+#sort{
+    font-size: 25px;
+    font-family: 'myfont';
+    color: #B3000C;
+    background-color: #FDFFEF;
+    border-color: #B3000C ;
+    height: 34px;
+    width: 200px;
+}

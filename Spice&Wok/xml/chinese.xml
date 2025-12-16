@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <Appetizers>
+        <product>
+            <name>Spring-Rolls</name>
+            <price>600.00</price>
+            <image>images/spring-rolls.jpg</image>
+            <discription>rolls filled with fresh vegetables and served with sweet chili sauce.</discription>
+        </product>
+        <product>
+            <name>Bruschetta</name>
+            <price>1000.00</price>
+            <image>images/bruschetta.jpg</image>
+            <discription>Grilled bread topped with diced tomatoes, basil, garlic, and olive oil.</discription>
+        </product>
+        <product>
+            <name>Dumplings</name>
+            <price>1100.00</price>
+            <image>images/dumplings.jpg</image>
+            <discription>Dough pockets filled with meat or vegetables, steamed, boiled, or pan-fried.</discription>
+        </product>
+    </Appetizers>
+
+    <MainCourse>
+        <product>
+            <name>Mapo Tofu</name>
+            <price>1700.00</price>
+            <image>images/mapo tofu.jpeg</image>
+            <discription>Spicy Sichuan dish with soft tofu and minced meat in a rich, flavorful sauce.</discription>
+        </product>
+        <product>
+            <name>Chow Mein</name>
+            <price>1800.00</price>
+            <image>images/chow mein.jpg</image>
+            <discription>Stir-fried noodles with vegetables.</discription>
+        </product>
+        <product>
+            <name>Crispy Duck</name>
+            <price>2000.00</price>
+            <image>images/crispy duck.webp</image>
+            <discription>Roasted duck with crispy skin, often served with a plum or hoisin sauce.</discription>
+        </product>
+    </MainCourse>
+
+    <Desserts>
+        <product>
+            <name>Tiramisu</name>
+            <price>1150.00</price>
+            <image>images/tiramisu.webp</image>
+            <discription>Layered Italian dessert with coffee-soaked ladyfingers, mascarpone cheese, and cocoa</discription>
+        </product>
+        <product>
+            <name>Fortune Cookies</name>
+            <price>950.00</price>
+            <image>images/fortune cookies .jpg</image>
+            <discription>Crisp cookies with a small piece of paper inside, containing a fortune or a piece of wisdom.</discription>
+        </product>
+        <product>
+            <name>Mango Pudding</name>
+            <price>600.00</price>
+            <image>images/mango pudding.jpg</image>
+            <discription>Smooth and creamy mango-flavored pudding.</discription>
+        </product>
+    </Desserts>
+</products>
