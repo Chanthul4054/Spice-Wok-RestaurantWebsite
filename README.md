@@ -4,7 +4,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)]
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)]
 [![Frontend Project](https://img.shields.io/badge/Project-Frontend-blue)]
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)]
+![Educational Project](https://img.shields.io/badge/Project-Educational-blue)
 
 **Spice & Wok** is a multi-page restaurant website developed using **HTML, CSS, JavaScript, and XML**.  
 The project features categorized menus, price sorting, a shopping cart flow, and a checkout page, all implemented on the client side.
